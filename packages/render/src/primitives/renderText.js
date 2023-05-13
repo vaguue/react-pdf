@@ -90,6 +90,7 @@ const renderRun = (ctx, run, options) => {
 
     ctx.restore();
   } else {
+    // ctx.font(typeof font.name === 'string' ? font.name : font, font.postscriptName, fontSize);
     ctx.font(typeof font.name === 'string' ? font.name : font, fontSize);
 
     try {
